@@ -1,17 +1,16 @@
-let num = 13;
 let flag = false;
-if (num == 1) {
-	flag = false;
-};
+if (num <= 1) {
+	flag = true;
+}
 
 for (let i = 2; i <= Math.sqrt(num); i++) {
 	if (num % i == 0) {
-		flag = false;
+		flag = true;
 	}
 }
 
-if (flag = true) {
-	console.log(num,"is a prime number");
-} else {
+if (flag == true) {
 	console.log(num,"is not a prime number");
-};
+} else {
+	console.log(num,"is a prime number")
+}
