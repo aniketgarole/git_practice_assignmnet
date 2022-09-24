@@ -1,1 +1,1 @@
-# git_practice_assignmnet
+This is a repository for git practice
